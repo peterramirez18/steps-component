@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .line {
+    @apply rounded-md bg-slate-100 h-5;
+  }
+}
